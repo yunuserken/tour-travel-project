@@ -5,6 +5,8 @@ function Hero(props) {
     <>
       <div className={props.cName}>
         <img alt="HeroImg" src={props.HeroImg} />
+        
+        
         <div className="hero-text">
           <h1>{props.Title} </h1>
           <p> {props.Text} </p>
