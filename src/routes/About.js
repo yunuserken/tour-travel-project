@@ -1,7 +1,18 @@
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import AboutImg  from "../assets/anthony-esau-N2zk9yXjmLA-unsplash.jpg";
+
+
 function About() {
   return (
     <>
-      <h1>This is About page</h1>
+      <Navbar />
+      <Hero
+        cName="hero-mid"
+        HeroImg={AboutImg}
+        Title="About"
+        BtnClass="hide"
+      />
     </>
   );
 }

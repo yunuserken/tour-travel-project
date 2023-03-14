@@ -1,7 +1,17 @@
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import ServiceImg  from "../assets/joel-filipe-RFDP7_80v5A-unsplash.jpg";
+
 function Service() {
   return (
     <>
-      <h1>This is Service page</h1>
+       <Navbar />
+      <Hero
+        cName="hero-mid"
+        HeroImg={ServiceImg}
+        Title="Service"
+        BtnClass="hide"
+      />
     </>
   );
 }

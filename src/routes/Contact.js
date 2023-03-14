@@ -1,7 +1,19 @@
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import ContactImg  from "../assets/ben-dumond-VedK8_UlmkY-unsplash.jpg";
+
+
+
 function Contact() {
   return (
     <>
-      <h1>This is Contact page</h1>
+        <Navbar />
+        <Hero
+          cName="hero-mid"
+          HeroImg={ContactImg}
+          Title="Contact"
+          BtnClass="hide"
+        />
     </>
   );
 }
