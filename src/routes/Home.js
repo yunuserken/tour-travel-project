@@ -2,6 +2,8 @@ import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import Trip from "../Components/Trip";
 import Destination from "../Components/Destination";
+import Footer from "../Components/Footer";
+
 function Home() {
   return (
     <>
@@ -17,6 +19,7 @@ function Home() {
       />
       <Destination />
       <Trip />
+      <Footer />
     </>
   );
 }
